@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROBOTICS ROADMAP</title>
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Roadmap">
+  <meta name="theme-color" content="#00ff88">
+  <link rel="apple-touch-icon" href="data:image/png;base64,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">
+  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIlJvYm90aWNzIFJvYWRtYXAiLAogICJzaG9ydF9uYW1lIjogIlJvYWRtYXAiLAogICJkZXNjcmlwdGlvbiI6ICIxNiB3ZWVrIHJvYm90aWNzIGxlYXJuaW5nIHJvYWRtYXAgdHJhY2tlciIsCiAgInN0YXJ0X3VybCI6ICIuL3JvYWRtYXAuaHRtbCIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiIzBhMGEwZiIsCiAgInRoZW1lX2NvbG9yIjogIiMwMGZmODgiLAogICJvcmllbnRhdGlvbiI6ICJwb3J0cmFpdCIsCiAgImljb25zIjogWwogICAgewogICAgICAic3JjIjogImljb24ucG5nIiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICB9LAogICAgewogICAgICAic3JjIjogImljb24ucG5nIiwKICAgICAgInNpemVzIjogIjUxMng1MTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICB9CiAgXQp9Cg==">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0f; color: #e0e0e0; font-family: 'Syne', sans-serif; min-height: 100vh; }
+  body::before { content: ''; position: fixed; inset: 0; background-image: linear-gradient(rgba(0,255,136,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,136,0.03) 1px, transparent 1px); background-size: 40px 40px; pointer-events: none; z-index: 0; }
+  .container { max-width: 700px; margin: 0 auto; padding: 32px 16px 60px; position: relative; z-index: 1; }
+  .top-header { margin-bottom: 28px; }
+  .top-header h1 { font-size: 36px; font-weight: 800; letter-spacing: -2px; color: #fff; line-height: 1; }
+  .top-header h1 span { color: #00ff88; }
+  .top-header p { font-family: 'Space Mono', monospace; font-size: 11px; color: #555570; margin-top: 6px; letter-spacing: 2px; text-transform: uppercase; }
+  .stats-bar { background: #111118; border: 1px solid #1e1e2e; border-radius: 14px; padding: 20px; margin-bottom: 24px; }
+  .stats-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+  .stats-top .pct { font-size: 42px; font-weight: 800; color: #00ff88; letter-spacing: -2px; line-height: 1; }
+  .stats-top .pct span { font-size: 18px; color: #555570; }
+  .stats-nums { font-family: 'Space Mono', monospace; font-size: 11px; color: #555570; text-align: right; line-height: 1.8; }
+  .stats-nums b { color: #e0e0e0; }
+  .progress-bar { height: 8px; background: #1e1e2e; border-radius: 99px; overflow: hidden; }
+  .progress-bar-fill { height: 100%; background: linear-gradient(90deg, #00ff88, #3366ff); border-radius: 99px; transition: width 0.5s ease; }
+  .phase-header { display: flex; align-items: center; gap: 12px; margin: 28px 0 10px; }
+  .phase-line { flex: 1; height: 1px; background: #1e1e2e; }
+  .phase-name { font-family: 'Space Mono', monospace; font-size: 9px; letter-spacing: 3px; color: #555570; text-transform: uppercase; white-space: nowrap; }
+  .week-card { background: #111118; border: 1px solid #1e1e2e; border-radius: 14px; margin-bottom: 10px; overflow: hidden; }
+  .week-card.week-complete { border-color: rgba(0,255,136,0.35); }
+  .week-header { display: flex; align-items: center; gap: 12px; padding: 16px 18px; cursor: pointer; user-select: none; }
+  .week-num { font-family: 'Space Mono', monospace; font-size: 10px; color: #555570; letter-spacing: 1px; min-width: 44px; }
+  .week-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .week-title { flex: 1; font-size: 15px; font-weight: 700; color: #fff; }
+  .week-ring { position: relative; width: 40px; height: 40px; flex-shrink: 0; }
+  .week-ring svg { transform: rotate(-90deg); }
+  .ring-bg { fill: none; stroke: #1e1e2e; stroke-width: 3; }
+  .ring-fg { fill: none; stroke-width: 3; stroke-linecap: round; transition: stroke-dashoffset 0.4s ease; }
+  .ring-label { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: 'Space Mono', monospace; font-size: 8px; color: #e0e0e0; }
+  .week-arrow { color: #555570; font-size: 16px; transition: transform 0.3s; flex-shrink: 0; }
+  .week-card.open .week-arrow { transform: rotate(180deg); }
+  .week-pbar { height: 2px; background: #1e1e2e; }
+  .week-pbar-fill { height: 100%; transition: width 0.4s ease; }
+  .tasks { display: none; padding: 4px 18px 14px; }
+  .week-card.open .tasks { display: block; }
+  .task { display: flex; align-items: flex-start; gap: 12px; padding: 11px 0; border-bottom: 1px solid rgba(255,255,255,0.04); cursor: pointer; }
+  .task:last-child { border-bottom: none; }
+  .task-check { width: 20px; height: 20px; border: 2px solid #1e1e2e; border-radius: 6px; flex-shrink: 0; margin-top: 1px; display: flex; align-items: center; justify-content: center; transition: all 0.18s; }
+  .task:hover .task-check { border-color: #00ff88; }
+  .task.done .task-check { background: #00ff88; border-color: #00ff88; }
+  .chk { display: none; }
+  .task.done .chk { display: block; }
+  .task-body { flex: 1; }
+  .task-day { font-family: 'Space Mono', monospace; font-size: 9px; color: #555570; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 2px; }
+  .task-text { font-size: 13px; color: #e0e0e0; line-height: 1.5; }
+  .task.done .task-text { color: #555570; text-decoration: line-through; text-decoration-color: rgba(0,255,136,0.4); }
+  .bottom-card { margin-top: 40px; background: #111118; border: 1px solid #1e1e2e; border-radius: 14px; padding: 28px; text-align: center; }
+  .bottom-card p { font-family: 'Space Mono', monospace; font-size: 10px; color: #555570; letter-spacing: 2px; text-transform: uppercase; }
+  .bottom-card h2 { font-size: 20px; font-weight: 800; color: #fff; margin-top: 8px; letter-spacing: -1px; }
+  .bottom-card h2 span { color: #00ff88; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="top-header">
+    <h1>ROBOTICS<br><span>ROADMAP</span></h1>
+    <p>16 weeks · 80 tasks · 2 projects · 1 goal</p>
+  </div>
+  <div class="stats-bar">
+    <div class="stats-top">
+      <div class="pct" id="pct">0<span>%</span></div>
+      <div class="stats-nums">
+        <div><b id="dc">0</b> / 80 tasks done</div>
+        <div><b id="wd">0</b> / 16 weeks complete</div>
+      </div>
+    </div>
+    <div class="progress-bar"><div class="progress-bar-fill" id="mb" style="width:0%"></div></div>
+  </div>
+  <div id="root"></div>
+  <div class="bottom-card">
+    <p>// the mission</p>
+    <h2>Internship that makes your college <span>never seen before.</span></h2>
+  </div>
+</div>
+<script>
+const C16 = 2*Math.PI*15;
+const COLORS=['#00ff88','#33aaff','#ff6633','#cc44ff','#ffcc00','#00ccff','#ff3366','#44ff88','#ff9900','#aa44ff','#00ffcc','#ff4488','#33ff99','#6699ff','#ffaa33','#44ccff'];
+const WEEKS=[
+  {id:1,phase:'PHASE 1 — FOUNDATION',title:'Linux + Git',tasks:['Install Ubuntu 22.04 dual boot on your laptop','Terminal basics — navigation, files, permissions, bash commands','Git init, add, commit, push — create your first GitHub repo','SSH, file editing with vim/nano, writing basic bash scripts','Set up VS Code on Ubuntu, connect to GitHub, push a Hello World project']},
+  {id:2,phase:'PHASE 1 — FOUNDATION',title:'C++ Basics',tasks:['Variables, data types, input/output, conditionals in C++','Loops, functions, arrays','Pointers and references — understand memory management','Structs and basic file I/O','Build project: command line calculator in C++. Push to GitHub']},
+  {id:3,phase:'PHASE 1 — FOUNDATION',title:'C++ OOP',tasks:['Classes and objects in C++','Constructors, destructors, access modifiers','Inheritance and polymorphism','Templates and basic STL — vectors, maps','Build project: robot joint class system in C++. Push to GitHub']},
+  {id:4,phase:'PHASE 1 — FOUNDATION',title:'C++ Advanced + Review',tasks:['Smart pointers and memory management in depth','Multithreading basics in C++','CMake basics — how to build C++ projects properly','Makefiles and professional project structure','Review weeks 1–4. Clean all GitHub repos. Write proper READMEs']},
+  {id:5,phase:'PHASE 2 — ROBOTICS CORE',title:'Python for Robotics',tasks:['Python OOP revision — classes, inheritance','NumPy — arrays, matrix operations, dot products','Matplotlib — plot graphs and visualize data','Serial communication in Python using pyserial','Build project: read and plot fake sensor data. Push to GitHub']},
+  {id:6,phase:'PHASE 2 — ROBOTICS CORE',title:'ROS2 Part 1',tasks:['Install ROS2 Humble on Ubuntu. Understand what ROS2 actually is','Nodes, topics, messages — theory + first Hello World node','Write a publisher node in Python','Write a subscriber node in Python','Publisher + subscriber talking to each other. Push to GitHub']},
+  {id:7,phase:'PHASE 2 — ROBOTICS CORE',title:'ROS2 Part 2',tasks:['Services and clients in ROS2','Parameters and launch files','ROS2 with C++ — rewrite publisher/subscriber in C++','TF2 — coordinate transforms (critical for robotics)','Build a full ROS2 package from scratch with launch file. Push to GitHub']},
+  {id:8,phase:'PHASE 2 — ROBOTICS CORE',title:'Robot Math',tasks:['Linear algebra — vectors, matrices, dot product, cross product','Rotation matrices, euler angles, quaternions','Forward kinematics — how joint angles become position','Inverse kinematics — basics and geometric approach','Build: forward kinematics for 2-joint arm in Python. Push to GitHub']},
+  {id:9,phase:'PHASE 3 — CONTROL + SIMULATION',title:'Control Theory',tasks:['What is a control system — open loop vs closed loop','PID controller — P, I, D terms explained from scratch','Implement PID in Python from scratch (no libraries)','Tune PID on a simulated system (mass spring damper)','Build: PID controller balancing a virtual pendulum. Push to GitHub']},
+  {id:10,phase:'PHASE 3 — CONTROL + SIMULATION',title:'Gazebo + URDF',tasks:['Install Gazebo. Understand what simulation means in robotics','URDF — how to describe a robot in XML','Build a 2-joint robot arm in URDF','Spawn your URDF robot in Gazebo','Connect ROS2 to your Gazebo robot. Push to GitHub']},
+  {id:11,phase:'PHASE 3 — CONTROL + SIMULATION',title:'Quadruped Sim — Part 1',tasks:['Study quadruped gait theory — trot, walk, crawl gaits','Build quadruped URDF — 4 legs, 12 joints','Spawn quadruped in Gazebo','Write basic joint controller in ROS2','Get one leg moving with position control. Push to GitHub']},
+  {id:12,phase:'PHASE 3 — CONTROL + SIMULATION',title:'Quadruped Sim — Part 2 🏆',tasks:['Implement basic standing position for the quadruped','Implement trot gait — 2 legs move at a time','Add IMU sensor simulation in Gazebo','Read IMU data in ROS2','🏆 Polish sim, record demo video, write README. PROJECT 1 DONE.']},
+  {id:13,phase:'PHASE 4 — HARDWARE + SHIP',title:'Embedded Systems',tasks:['Arduino/Teensy basics — GPIO, digital, analog read/write','PWM — controlling servo motors precisely','UART communication between microcontroller and laptop','I2C — reading an IMU sensor (MPU6050)','Build: read IMU data and send over serial to Python. Push to GitHub']},
+  {id:14,phase:'PHASE 4 — HARDWARE + SHIP',title:'Hardware Project Begins',tasks:['Design a 2DOF robot arm (2 servo motors) — plan on paper','Wire servos to Arduino/Teensy','Control arm position from Python over serial','Implement inverse kinematics — control arm with XY coordinates','Get arm moving accurately to target positions. Push to GitHub']},
+  {id:15,phase:'PHASE 4 — HARDWARE + SHIP',title:'Hardware Project Polish 🏆',tasks:['Add PID control to arm joints for smooth movement','Build a simple mount or enclosure for the arm','Record a proper demo video showing the arm working','Write full documentation — circuit diagram, how it works, code explained','🏆 PROJECT 2 DONE. Push everything to GitHub']},
+  {id:16,phase:'PHASE 4 — HARDWARE + SHIP',title:'Resume + Applications 🚀',tasks:['Polish both GitHub repos — READMEs, photos, videos, diagrams','Build your resume — 1 page, skills + projects + education only','Write your SOP — why robotics, what you built, where you want to go','Find 10 IISc/IIT professors in robotics. Draft cold emails','🚀 Send emails. Apply IAS SRFP. Apply ISRO. Apply IIT SURGE.']},
+];
+
+let S={};
+try{S=JSON.parse(localStorage.getItem('rmv3')||'{}');}catch(e){}
+function save(){localStorage.setItem('rmv3',JSON.stringify(S));}
+
+let openMap={};
+
+function k(w,i){return w+'_'+i;}
+
+function prog(w){
+  const done=w.tasks.filter((_,i)=>S[k(w.id,i)]).length;
+  return{done,total:w.tasks.length,pct:Math.round(done/w.tasks.length*100)};
+}
+
+function stats(){
+  let d=0,t=0,wd=0;
+  WEEKS.forEach(w=>{const p=prog(w);d+=p.done;t+=p.total;if(p.done===p.total)wd++;});
+  const pct=t?Math.round(d/t*100):0;
+  document.getElementById('pct').innerHTML=pct+'<span>%</span>';
+  document.getElementById('mb').style.width=pct+'%';
+  document.getElementById('dc').textContent=d;
+  document.getElementById('wd').textContent=wd;
+}
+
+function render(){
+  let html='';
+  let lastPhase='';
+  WEEKS.forEach(w=>{
+    const col=COLORS[w.id-1];
+    const {done,total,pct}=prog(w);
+    const isOpen=!!openMap[w.id];
+    const isComplete=done===total;
+    const offset=C16-(pct/100)*C16;
+    if(w.phase!==lastPhase){
+      lastPhase=w.phase;
+      html+=`<div class="phase-header"><div class="phase-line"></div><div class="phase-name">${w.phase}</div><div class="phase-line"></div></div>`;
+    }
+    const tasksHtml=w.tasks.map((t,i)=>{
+      const isDone=S[k(w.id,i)];
+      return `<div class="task${isDone?' done':''}" onclick="tick(${w.id},${i})">
+        <div class="task-check"><svg class="chk" width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="#0a0a0f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="task-body"><div class="task-day">Day ${i+1}</div><div class="task-text">${t}</div></div>
+      </div>`;
+    }).join('');
+    html+=`<div class="week-card${isComplete?' week-complete':''}${isOpen?' open':''}" id="wk${w.id}">
+      <div class="week-header" onclick="toggleW(${w.id})">
+        <div class="week-num">WK ${String(w.id).padStart(2,'0')}</div>
+        <div class="week-dot" style="background:${col}"></div>
+        <div class="week-title">${w.title}</div>
+        <div class="week-ring">
+          <svg width="40" height="40" viewBox="0 0 40 40">
+            <circle class="ring-bg" cx="20" cy="20" r="15"/>
+            <circle class="ring-fg" cx="20" cy="20" r="15" stroke="${col}" stroke-dasharray="${C16}" stroke-dashoffset="${offset}"/>
+          </svg>
+          <div class="ring-label">${pct}%</div>
+        </div>
+        <div class="week-arrow">▾</div>
+      </div>
+      <div class="week-pbar"><div class="week-pbar-fill" style="width:${pct}%;background:${col}"></div></div>
+      <div class="tasks">${tasksHtml}</div>
+    </div>`;
+  });
+  document.getElementById('root').innerHTML=html;
+  stats();
+}
+
+function toggleW(id){
+  openMap[id]=!openMap[id];
+  render();
+}
+
+function tick(wid,ti){
+  S[k(wid,ti)]=!S[k(wid,ti)];
+  save();
+  render();
+}
+
+render();
+</script>
+
+  <script>
+    if('serviceWorker' in navigator){
+      const swCode = `
+self.addEventListener('install', e => {
+  e.waitUntil(
+    caches.open('roadmap-v1').then(cache => cache.addAll([location.href]))
+  );
+});
+self.addEventListener('fetch', e => {
+  e.respondWith(
+    caches.match(e.request).then(r => r || fetch(e.request))
+  );
+});`;
+      const blob = new Blob([swCode], {type:'application/javascript'});
+      navigator.serviceWorker.register(URL.createObjectURL(blob));
+    }
+  </script>
+</body>
+</html>
